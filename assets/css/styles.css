@@ -587,6 +587,8 @@ img {
   margin-top: 5rem;
   font-size: var(--small-font-size);
   text-align: center;
+  padding-inline: 1rem;
+  line-height: 1.8;
 }
 
 
