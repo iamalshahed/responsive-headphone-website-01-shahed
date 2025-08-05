@@ -164,6 +164,7 @@ img {
 .nav__list{
   text-align: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
   row-gap: 2.5rem;
 }
@@ -175,6 +176,27 @@ img {
 
   &:hover{
     color: var(--first-color);
+  }
+}
+
+.nav__stars{
+  display: flex;
+  align-items: center;
+  gap: .4375rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #27272A;
+
+  .numbers-star{
+    color: #9F9FA9;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .github_logo{
+    color: #FAFAFA;
+    font-size: 18px;
   }
 }
 
